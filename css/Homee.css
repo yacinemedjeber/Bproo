@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul .t{
+    position: relative;
+    bottom: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+
+nav ul .t:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.container{
+    max-width: 90%;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    padding: 14.7% 0;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #16a7b4;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: background 0.5s;
+}
+
+.col-2 a:hover{
+    background: #106e77;
+}
+
+p{
+    color: #555;
+}
+
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb );
+}
+
+/* style de la section categories */
+
+.categories{
+    margin: 70px 0;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.container_2{
+    max-width: 90%;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container_2 h2{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #444;
+    margin: 50px 0;
+}
+
+/* sectione de meilleurs produits */
+
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.4s;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.col-4:hover{
+    transform: translateY(-10px);
+}
+
+.rating{
+    color: #16a7b4;
+}
+
+.prix{
+    color: #E95904;
+}
+
+.cart_image{
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.cart_image:hover{
+    transform: scale(1.1);
+}
+
+.image_3d{
+    position: absolute;
+    height: 78%;
+    top: 23%;
+    right: 10%;
+}
+
+.yacine{
+    color: black;
+    font-size: 18px;
+}
+
+.contact{
+    padding: 20px 0;
+    background: radial-gradient(#fff , #eaf2fb  );
+    height: 300px;
+}
+
+.contact_me{
+    margin-top: 1%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    gap: 20px;
+}
+
+.social-icons a{
+    display: inline-flex;
+    align-items: center;
+    font-size: 35px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.terms{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    font-size: 14px;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+.terms a{
+    text-decoration: none;
+    color:rgb(83, 83, 83) ;
+    transition: 0.4s;
+}
+
+.terms a:hover{
+    color: #000000;
+}
+
+.yacine1{
+    margin-bottom: 15px;
+}
+
+button.logout_btn{
+    position: relative;
+    padding: 9px 25px;
+    margin-left: 30px;
+    bottom: 10px;
+    background: #16a7b4;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: All 0.3s ease;
+}
+button.logout_btn:hover{
+    background: #106e77;
+}
+
+.add{
+    color: #fff;
+    background: #16a7b4;
+    width: 40%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.add:hover{
+    background: #106e77;
+}
+
+
+
+
